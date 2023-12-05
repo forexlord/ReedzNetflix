@@ -1,0 +1,25 @@
+.nav h1{
+    color: red;
+    font-size: 37px;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    height: 30px;
+    z-index: 1;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+.nav-avatar{
+    width: 30px;
+    object-fit: contain;
+    position: fixed;
+    right: 20px;
+}
+.nav-black{
+    background: #111;
+}
