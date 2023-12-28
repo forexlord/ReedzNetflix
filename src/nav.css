@@ -1,25 +1,36 @@
-.nav h1{
-    color: red;
-    font-size: 37px;
+.nav h1 {
+  color: red;
+  font-size: 37px;
 }
-.nav{
-    display: flex;
-    position: fixed;
-    top: 0;
-    justify-content: space-between;
-    width: 100%;
-    padding: 20px;
-    height: 30px;
-    z-index: 1;
-    transition: all 0.5s;
-    transition-timing-function: ease-in;
+.nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
 }
-.nav-avatar{
-    width: 30px;
-    object-fit: contain;
-    position: fixed;
-    right: 20px;
+.nav-avatar {
+  width: 30px;
+  object-fit: contain;
+  position: fixed;
+  right: 20px;
 }
-.nav-black{
-    background: #111;
+.nav-black {
+  background: #111;
+}
+@media screen and (max-width: 500px) {
+  .nav-avatar {
+    display: none;
+  }
+  .app {
+    overflow-x: hidden;
+  }
+  .banner-contents {
+    margin-left: 10px;
+  }
 }

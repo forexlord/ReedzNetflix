@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0;
+  padding: 0;
 }
-.app{
+.app {
   background: #111;
 }
-.app::-webkit-scrollbar{
+.app::-webkit-scrollbar {
   display: none;
 }
